@@ -6,8 +6,8 @@ def sieve(limit):
     #if limit < 2:
         #return 0
     
-    st = time.time()
     limit += 1
+    st = time.time()
     primes = [True] * limit
 
     for i in range(2, int(limit ** 0.5 + 1)):
