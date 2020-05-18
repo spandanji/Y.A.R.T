@@ -29,6 +29,6 @@ fn main() {
         }
     }
 
-    println!("Time : {}", t.elapsed().as_millis());
+    println!("Time : {}ms", t.elapsed().as_millis());
     println!("Sum : {}", sum);
 }
