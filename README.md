@@ -21,4 +21,4 @@ OR
 rustc -C debuginfo=0 -C opt-level=3 -C target-cpu=native (filename)
 ```
 
-#### No pointers for havind C++ and python set up!
+#### No pointers for having C++ and python set up!
