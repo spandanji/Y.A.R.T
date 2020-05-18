@@ -1,7 +1,7 @@
 # Y.A.R.T
 ### Yet Another Random Testbench (Or NOT)
 
-For most of the challenges where we need to decide the size of a data structure, we shall fix n = 10^8
+For most of the challenges where we need to decide the number of inputs, we shall fix n = 10^8
 
 ## Setup
 For Rust, we shall use rustup to set up the enviornment. We will be using the stable channel of Rust (as much as possible), when we need nighly features, we shall mention it as such.
