@@ -11,8 +11,7 @@ Set up rust :
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 The Rust projects can be run using 
-```
-cargo --build release
+RUSTFLAGS="-C target-cpu=native" cargo build --release
 ```
 OR
 ```bash
