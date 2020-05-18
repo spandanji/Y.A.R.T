@@ -24,6 +24,7 @@ def sieve(limit):
 
 if __name__ == '__main__':
 
-    s = sieve(10 ** 8)
+    n = int(input())
+    s = sieve(n)
     print(f'Sum: {s}')
 
