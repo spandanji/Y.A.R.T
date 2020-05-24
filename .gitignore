@@ -2,4 +2,4 @@
 .ccls-cache/*
 **.swp
 .clangd/*
-*target/*
+**/target/*
